@@ -33,10 +33,12 @@ Ví dụ:
     - Một phép chia có thể là [1, 3], [2] Ở đây tổng trọng số là = (3 - 1) + (2 - 2) = 2
     - Ở testcase số 2, có thể chia thành 2 dãy [4, 1, 10] và [8, 2] thì tổng trọng số là (10 - 1) + (8 - 2) = 15
 */
-
-#include <cstdio>
+// Header
+#include <iostream>
+#include <vector>
 #include <climits>
-
+using namespace std;
+// Body
 int main() {
     int t;
     scanf("%d", &t);
